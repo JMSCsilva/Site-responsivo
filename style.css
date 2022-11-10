@@ -1,0 +1,269 @@
+body{
+    margin:0%;
+}
+
+.title{
+    background-image: url(./img/background-inicial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container-fluid{
+    max-width: 1300px;
+    margin:-1% 15%;
+
+
+}
+
+.row {
+    --bs-gutter-x: -0.5rem;
+}
+
+/*-----------------------------------------------------------------------NAVBAR-------------------------------------------------------------*/
+#navinicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+#eng{
+    text-shadow:1px 1px #4B6587;
+}
+#pio{
+    color:#4B6587 ;
+    font-size:180% ;
+    
+}
+.navbar-brand{
+    color: #fff;
+    font-family:'montserrat-bold';
+    font-size: 200%;
+    margin: 0%;
+}
+.navbar-nav{
+    padding: 0 45%;
+    margin: auto;
+    color: #fff;
+    
+}
+
+.nav-item{
+    padding:0 10%;
+    margin: auto;
+    display: flex;
+    font-size: 120%;
+}
+.nav-link{
+    color:#fff;
+    text-shadow:1px 1px #4B6587;
+
+}
+
+/*-----------------------------------------------------------------top-container---------------------------------------------------------*/
+#top-container{
+    padding:2% 10% 10% 10%;
+    line-height: 3%;
+}
+
+.nome{
+    color:#4B6587;
+    font-family:'Noto Sans Mono','Ubuntu' ;
+    font-size: 450%;
+    margin-top: 10%;
+}
+
+.ola{
+    font-size: 160%;
+    font-family:'montserrat';
+    color: #fff;
+    text-shadow:2px 1px #4B6587;
+    justify-content: center;
+   
+   
+}
+
+.perfil{
+    position: relative;
+    left: 8%;
+    width: 78%;
+    top:16%;
+
+}
+.botton-inicio{
+    padding: 7% 0% 14% 0%;
+}
+
+/*------------------------------------------------------middle-container----------------------------------------------------*/
+#middle-container{
+    text-align: center;
+    align-items: center;
+    background-color:#fff;
+    padding:2% 20% 3% 10%;
+    margin: 0%;
+ 
+
+}
+#icones{
+    color: #4B6587;
+    position: relative;
+    right:4%;
+}
+#botoes{
+    line-height:1%;
+}
+.title-middle{
+    text-align: center;
+    color: #FCE700;
+    font-family: 'Montserrat';
+    font-size: 300%;
+    margin: auto;
+    line-height: 1%;
+    margin:5% ;
+    text-shadow:1px 1px #4B6587;
+    
+}
+
+.text-sobre{
+    padding: 1% 4% 5%;
+    font-family: 'sans-serif';
+    font-size: 150%;
+    margin: 2% 0% 2% 15%;
+    color: #4B6587;
+    
+}
+.botoes-redes{
+   position: relative;
+   left: 7%;
+}
+
+/*-----------------------------------------------carrossel----------------------------------------------------*/
+#carrossel-fotos{
+    padding: 0% 0% 0% 10%;
+    margin: 0px;
+    width: auto;
+    display: flex;
+    
+}
+
+.img-carro{
+    width: 38%;
+    border-radius: 2%;
+    border:2px solid  #FCE700;
+
+}
+.carousel-control-prev-icon{
+    background-color: #cccccc;
+}
+.carousel-control-next-icon{
+   background-color: #cccccc;
+    
+}
+
+
+/*--------------------------------------------footer-container-------------------------------------------------*/
+#footer-container{
+    padding:2% 10% 10% 10%;
+    text-align: center;
+    align-items: center;
+    background-color: #4B6587;
+}
+
+.title-footer{
+    color: #FCE700;
+    font-size: 250%;
+    margin:2% 0% 5% 0%;
+    text-shadow: 1px 1px #4B6587;
+}
+
+/*-------------------------------------------------card-----------------------------------------------------------*/
+
+
+.card-img-top {
+    background-image: url(./img/card/Engenharia_2.png);
+
+}
+
+/*--------------------------------------------contato----------------------------------------------------------------*/
+.contato-container{
+    background-color: #fff; 
+    text-align: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#formulario{
+    padding: 2% 1% 5% 1%;
+    border-radius: 5%;
+    border:1px solid #fff;
+    box-shadow: 30px 30px 30px -20px rgb(0 0 0 / 50%);
+    max-width: 500px;
+    justify-content: left;
+    margin: 2%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#form-id{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10%;
+}
+
+#textarea{
+    border: 1px solid black;
+
+
+}
+#botom-enviar{
+    padding: 1.3em 3em;
+    width: 50%;
+    letter-spacing: 1px;
+    font-size: 90%;
+    cursor: pointer;
+    border-radius: 45px;
+    border:1px solid black;
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.title-contatos{
+    margin-top:2%;
+    font-family: 'montserrat';
+    font-size: 250%;
+    color: #FCE700;
+    text-shadow:1px 1px #4B6587;
+
+}
+.form-pag{
+    border:none;
+    border-bottom: 2px solid;
+    background: transparent;
+    padding: 5px;
+    margin: 15px;
+    
+}
+   
+.form-control{
+    border-color: #cccccc;
+    border: none;
+}
+
+/*----------------------------------------------rodape--------------------------------------------------*/
+
+#rodape-1{
+    padding: 0.5%;
+    margin: 0%;
+    background-color: #FCE700;
+    align-items: center;
+    text-align: center;
+    color: #cccccc;
+    text-shadow:2px 1px #fff;
+}
